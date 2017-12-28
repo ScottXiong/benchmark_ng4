@@ -1,0 +1,17 @@
+
+<div class="panel panel-danger">
+  <div class="panel-body">
+    <app-carousel></app-carousel> 
+    <h3>Benchmark</h3>
+  </div>
+  <div class="panel-footer">
+  	<h4>benchmark是一家集设计,印刷，摄影的国际公司。公司主要有以下部门：</h4>
+	<ul>
+		<li *ngFor="let i of brr;let b=index;" (click)="show(b,e)">{{i}}</li>
+	</ul>
+  	<h5>{{arr[i]}}</h5>
+  </div> 
+  <div class="contact">
+  </div>
+</div>
+ <app-contact></app-contact>

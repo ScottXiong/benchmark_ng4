@@ -1,0 +1,16 @@
+h3{
+	color:#f60;
+}
+h4{
+	color:red;
+}
+ul li:hover{
+	color: blue;
+}
+h5{
+	color:green;
+}
+.contact{
+	padding: 20px;
+	background: #ccc;
+}

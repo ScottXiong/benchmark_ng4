@@ -1,0 +1,9 @@
+ul li{
+	list-style: none;
+	display: inline-block;
+	margin-right: 50px;
+	color: grey;
+}
+ul{
+	margin-left: -40px;
+}
