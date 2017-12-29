@@ -11,12 +11,16 @@ import { UsaComponent } from './usa/usa.component';
 import { CanComponent } from './can/can.component';
 import { NonComponent } from './non/non.component';
 import { MeComponent } from './me/me.component';
+import { FlowComponent } from './flow/flow.component';
 import { ContactComponent } from './contact/contact.component';
 import { Page404Component } from './page404/page404.component';
 import { AlertModule, AccordionModule, CarouselModule ,CollapseModule,DatepickerModule,BsDropdownModule,
    ModalModule, PaginationModule, PopoverModule, ProgressbarModule, RatingModule,SortableModule,TabsModule
   , TooltipModule,TypeaheadModule } from 'ngx-bootstrap';
 import { CarouselComponent } from './carousel/carousel.component';
+import { FlowComponent } from './flow/flow.component';
+import { TranslateComponent } from './translate/translate.component';
+import { FinalComponent } from './final/final.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +32,10 @@ import { CarouselComponent } from './carousel/carousel.component';
     MeComponent,
     Page404Component,
     CarouselComponent,
-    ContactComponent
+    ContactComponent,
+    FlowComponent,
+    TranslateComponent,
+    FinalComponent,
   ],
   imports: [
      BrowserModule,

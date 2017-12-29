@@ -4,3 +4,35 @@ h4{
 ul li{
     list-style: none;
 }
+#message{
+	border-radius: 8px;
+	border:1px solid #ccc;
+	padding: 30px;
+	margin-left: 35px;
+	box-shadow: 8px 8px 8px #ccc;
+}
+.out{
+	margin-left: 30px;
+}
+.tab-pane{
+	margin-left: 20px;
+}
+.pic{
+	padding: 10px;
+	text-indent: 24px;
+	box-shadow: 8px 8px 8px #ccc;
+}
+.pic img:hover{
+	transform: scale(1.1);
+}
+.pic img{
+	border-radius: 8px;
+}
+#wmt h4{
+	color:green;
+	font-weight: 120%;
+	font-family: "Arial"
+}
+span{
+	color: red;
+}

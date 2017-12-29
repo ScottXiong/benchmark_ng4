@@ -1,0 +1,14 @@
+span{
+	color: red;
+}
+
+#message{
+	border-radius: 8px;
+	border:1px solid #ccc;
+	padding: 30px;
+	margin-left: 35px;
+	box-shadow: 8px 8px 8px #ccc;
+}
+ul li{
+	list-style: none;
+}

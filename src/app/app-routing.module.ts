@@ -6,6 +6,8 @@ import {CanComponent} from './can/can.component';
 import {UsaComponent} from './usa/usa.component';
 import {MeComponent} from './me/me.component';
 import {NonComponent} from './non/non.component';
+import { FlowComponent } from './flow/flow.component';
+
 
 const routes: Routes = [
    {path:'',component:HomeComponent},
@@ -13,6 +15,8 @@ const routes: Routes = [
    {path:'me',component: MeComponent},
    {path:'non',component: NonComponent},
    {path:'can',component: CanComponent},
+   {path:'flow',component: FlowComponent},
+   {path:'',component:HomeComponent},
    {path:'**',component: Page404Component}
 ];
 

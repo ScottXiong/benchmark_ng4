@@ -2,7 +2,7 @@ h3{
 	color:#f60;
 }
 h4{
-	color:red;
+	line-height: 30px;
 }
 ul li:hover{
 	color: blue;
@@ -17,10 +17,13 @@ h5{
 ul li{
 	list-style: none;
 	font-weight: bold;
-	line-height: 30px;
+	line-height: 28px;
 }
 span{
-	color:#f60;;
+	color:grey;;
 	font-size: 18px;
 	margin-right: 8px;
+}
+.panel-footer{
+	padding: 10px,30px,30px,30px;
 }

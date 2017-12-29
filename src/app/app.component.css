@@ -1,6 +1,20 @@
 
-nav{;margin-bottom:0;}
+nav{;margin-bottom:0;background:bule;}
 /*body{padding-top: 60px;background:url(http://pic2.16pic.com/00/21/38/16pic_2138998_b.jpg);
 	z-index: 19;background-size: cover;}*/
 .out{
+
 }	
+.box{
+      width: 25px;
+      height: 25px;
+      background: #67CF22;
+      display: inline-block;
+      animation: aa 1.5s ease-out infinite;
+    }
+    @keyframes aa{
+    0{transform: perspective(70px) rotateX(0) rotateY(0);}
+    50%{transform: perspective(70px) rotateX(180deg) rotateY(0);}
+    100%{transform: perspective(70px) rotateX(180deg) rotateY(180deg)}
+}
+    

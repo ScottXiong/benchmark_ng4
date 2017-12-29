@@ -1,17 +1,29 @@
 
-<div class="panel panel-danger">
-  <div class="panel-body">
-    <app-carousel></app-carousel> 
-    <h3>Benchmark</h3>
+<div class="container">
+  <div class="">
+   <h3>简介</h3>
   </div>
-  <div class="panel-footer">
-  	<h4>benchmark是一家集设计,印刷，摄影的国际公司。公司主要有以下部门：</h4>
-	<ul>
-		<li *ngFor="let i of brr;let b=index;" (click)="show(b,e)"><span class={{crr[b]}}></span>{{i}}</li>
-	</ul>
-  	<h5>{{arr[i]}}</h5>
-  </div> 
+  <div class="col-md-5">
+    <h4>部门信息：</h4>
+    <p>Benchmark是一家集设计,印刷，摄影的国际公司。公司主要有以下部门：</p>
+  	<div class="row">
+      <div class="">
+        <ul>
+          <li *ngFor="let i of brr;let b=index;" (click)="show(b,e)"><span class={{crr[b]}} style="color:#9535211;"></span>{{i}}</li>
+        </ul>
+          <h5 class="col-md-offset-1">{{arr[i]}}</h5>
+      </div>  
+      </div> 
+      <hr>
+      <h4>一些作品：</h4>
+      <p>公司的主营业务是产品的包装设计，涵盖设计，印刷，摄影，看色等多个领域。我们的设计包含多个系列, 如 Valentine, Easter, Harvest, Holiday Time, Way To Celebrate and so on...</p>
+      <app-contact></app-contact>
+    </div>
+     <div class="col-md-6" style="margin-top: 50px;">
+        <app-carousel></app-carousel>
+    </div>
   <!-- <div class="contact">
   </div> -->
+
 </div>
- <app-contact></app-contact>
+ 
