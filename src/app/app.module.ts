@@ -3,7 +3,6 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 
-import { AlertModule } from 'ngx-bootstrap';
 
 
 import { AppComponent } from './app.component';
@@ -13,7 +12,6 @@ import { CanComponent } from './can/can.component';
 import { NonComponent } from './non/non.component';
 import { MeComponent } from './me/me.component';
 import { ContactComponent } from './contact/contact.component';
-import { CaruselComponent } from './carusel/carousel.component';
 import { Page404Component } from './page404/page404.component';
 import { AlertModule, AccordionModule, CarouselModule ,CollapseModule,DatepickerModule,BsDropdownModule,
    ModalModule, PaginationModule, PopoverModule, ProgressbarModule, RatingModule,SortableModule,TabsModule

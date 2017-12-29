@@ -1,10 +1,75 @@
-<button type="button" class="btn btn-primary"
-        (click)="isCollapsed = !isCollapsed">Toggle collapse
-</button>
-<hr>
-<div (collapsed)="collapsed($event)"
-     (expanded)="expanded($event)"
-     [collapse]="isCollapsed"
-     class="card card-block card-header">
-  <div class="well well-lg">Some content</div>
+<div>
+        
+          <!-- Nav tabs -->
+          <ul class="nav nav-tabs" role="tablist">
+            <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">初稿</a></li>
+            <li role="presentation"><a href="#revise" aria-controls="revise" role="tab" data-toggle="tab">修改稿</a></li>
+            <li role="presentation"><a href="#wmt" aria-controls="wmt" role="tab" data-toggle="tab">给WMT</a></li>
+            <li role="presentation"><a href="#translation" aria-controls="translation" role="tab" data-toggle="tab">加翻译</a></li>
+            <li role="presentation"><a href="#final" aria-controls="final" role="tab" data-toggle="tab">最终稿</a></li>
+          </ul>
+        
+          <!-- Tab panes -->
+          <div class="tab-content">
+            <div role="tabpanel" class="tab-pane active" id="home">
+                        <!-- usa-start -->
+                             <h3><span class="glyphicon glyphicon-th-large" style="color: green;"></span>&nbsp;&nbsp;美国初稿要用proofHQ,相应的<a href="au1.html" target="_blank" >文案</a></h3>
+                             <h4>准备工作：先从服务器上把2个对应的拷贝到本地</h4>
+                             <ul>
+                                     <li><h5>1.upload</h5></li>
+                                     <li><h5>2.share</h5></li>
+                                     <!-- <img src="../imgs/share.png"> -->
+                                <h5>先确定BMK Service:  Moderator Decisions;</h5>
+                                     <table class="table table-hover table-striped table-bordered text-center">
+                         <thead>
+                           <tr class="info">
+                             <th class="text-center">Email</th>
+                             <th class="text-center">Right</th>
+                           </tr>
+                         </thead>
+                         <tbody>
+                           <tr>
+                             <td>chris@benchmarkdesign.org  </td>
+                             <td>Moderator, Disabled</td>
+                           </tr>
+                           <tr>
+                             <td>Darla Box  </td>
+                             <td>Moderator, Disabled</td>
+                           </tr>
+                            <tr>
+                             <td>delandra.brewer@walmart.com  </td>
+                             <td> Reviewer, Disabled</td>
+                           </tr>
+                            <tr>
+                             <td>Michelle Kositzke  </td>
+                             <td>Reviewer, Disabled</td>
+                           </tr>
+                            <tr class="success">
+                             <td>Primary supplier contact  </td>
+                             <td> Reviewer & Approver, Daily summary
+                </td>
+                           </tr>
+                            <tr class="success">
+                             <td>Secondary supplier contact   </td>
+                             <td> Reviewer, Decisions</td>
+                           </tr>
+                           <tr class="danger">
+                             <td> <span>D18</span>?--->yes, so add <span>Shawn.Shao@walmart.com</span>  </td>
+                             <td> Reviewer, Disabled</td>
+                           </tr>
+                         </tbody>
+                       </table>
+                         <li><h5>3.message</h5></li>
+                         <li><h5>4.subject</h5></li>
+                         <li><h5>5.more setting</h5></li> 
+                         <li><h5></h5></li>
+                             </ul>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="revise">..2.</div>
+            <div role="tabpanel" class="tab-pane" id="wmt">.3..</div>
+            <div role="tabpanel" class="tab-pane" id="translation">.4..</div>
+            <div role="tabpanel" class="tab-pane" id="final">.5..</div>
+            
+          </div>
+        
 </div>

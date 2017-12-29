@@ -14,3 +14,13 @@ h5{
 	padding: 20px;
 	background: #ccc;
 }
+ul li{
+	list-style: none;
+	font-weight: bold;
+	line-height: 30px;
+}
+span{
+	color:#f60;;
+	font-size: 18px;
+	margin-right: 8px;
+}
